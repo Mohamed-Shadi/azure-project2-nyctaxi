@@ -37,6 +37,9 @@ This project demonstrates an end-to-end Azure Data Engineering solution using th
   - The transformed data was then stored in the Silver layer.
   - The data was further read from the Silver layer, Delta tables were created to enable features like querying, versioning, and time-travel.
   - The final analytics-ready data was stored in the Gold layer.
++ Transformation scripts:
+  - [Silver notebook](https://github.com/Mohamed-Shadi/azure-project2-nyctaxi/blob/main/silver_notebook.ipynb)
+  - [Gold notebook](https://github.com/Mohamed-Shadi/azure-project2-nyctaxi/blob/main/gold_notebook.ipynb)
 ### Connecting Power BI
 + A connection was established between Databricks and Power BI Desktop to connect the Delta tables in the Gold layer for visualization.
   - The connection file was downloaded from Databricks and imported into Power BI Desktop.
