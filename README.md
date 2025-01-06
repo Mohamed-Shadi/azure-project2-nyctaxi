@@ -1,6 +1,6 @@
 # End-to-End Azure Data Engineering Project using Medallion Architecture | NYC Taxi Data
 ## Introduction
-This project demonstrates an end-to-end Azure Data Engineering pipeline using the Medallion Architecture (Bronze, Silver, Gold layers) with NYC Taxi data. It includes data ingestion with a dynamic pipeline in Data Factory, transformations and creation of Delta tables in Databricks, storage in Data Lake, and connecting the transformed, analysis-ready data to Power BI
+This project demonstrates an end-to-end Azure Data Engineering solution using the Medallion Architecture (Bronze, Silver, Gold layers) with NYC Taxi data. It includes data ingestion with a dynamic pipeline in Data Factory, transformations and creation of Delta tables in Databricks, storage in Data Lake, and connecting the transformed, analysis-ready data to Power BI
 ## Architecture
 ![Project Architecture Diagram](Architecture_diagram_nt.jpg)
 ## Implementation
