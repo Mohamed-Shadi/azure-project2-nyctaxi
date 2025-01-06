@@ -3,6 +3,9 @@
 This project demonstrates an end-to-end Azure Data Engineering solution using the Medallion Architecture (Bronze, Silver, Gold layers) with NYC Taxi data. It includes data ingestion with a dynamic pipeline in Data Factory, transformations and creation of Delta tables in Databricks, storage in Data Lake, and connecting the transformed, analysis-ready data to Power BI.
 ## Architecture
 ![Project Architecture Diagram](Architecture_diagram_nt.jpg)
+## Dataset Used
+2023 Green taxi trip records were used which include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts.
+Dataset link - (https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 ## Implementation
 ### Azure Data Lake Storage Gen 2 (ADLS) : 
 + Three containers were created in ADLS to implement the Medallion Architecture: Bronze, Silver, and Gold. Each layer stores data at different stages of processing.
